@@ -1,0 +1,33 @@
+{
+  "name": "brilliance",
+  "version": "1.0.0",
+  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Barvol",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.1.0",
+    "node-bourbon": "^4.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barvol/brilliance"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "bugs": {
+    "url": "https://github.com/barvol/brilliance"
+  },
+  "homepage": "https://github.com/barvol/brilliance"
+}
