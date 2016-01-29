@@ -278,6 +278,25 @@ input[type="button"] {
   width: 180px;
   background: white;
   padding: 30px 0; }
+  .home-wrap header .header-position {
+    position: fixed;
+    top: 30px;
+    bottom: 30px;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 180px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .home-wrap header .logo {
     overflow: hidden;
     text-indent: 101%;
@@ -302,3 +321,10 @@ input[type="button"] {
     display: block;
     padding-right: 30px;
     text-align: right; }
+
+.home-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh; }
